@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600;700&family=Holtwood+One+SC&family=League+Gothic&family=Potta+One&family=Rock+Salt&family=Ultra&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: #212121;;
+}
+footer{
+    background: #D9CAB3;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-cabecalho{
+    height: 144px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 64px;
+}
+.cabecalho-menu-item{
+    font-family: 'blinker', sans-serif;
+    color: #D9CAB3;
+    font-weight: 400;
+    font-size: 18px; 
+    cursor: pointer;
+}
+.cabecalho-menu-item:hover{
+    color: rgba(236, 214, 196, 0.53);
+}
+.conteudo{
+    margin-bottom: 48px; 
+}
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+}
+.logo-conteudo{
+    height: 500px; 
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo-secundario-botao{
+    background-color: #D9CAB3;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Blinker', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color:#212121;
+    cursor: pointer;
+}
+.conteudo-secundario-botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.rodape{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+.rodape-imagem{
+    height: 96px;
+}

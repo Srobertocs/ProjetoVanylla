@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre</title>
+    <link rel="stylesheet" type="text/css" href="cadastre-style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo-cabecalho" src="Logopreta.png">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="index.html">HOME</a>
+            <a class="cabecalho-menu-item" href="aboutus.html">ABOUT US</a>
+            <a class="cabecalho-menu-item" href="cadastre.html">CADASTRE</a>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <div class="container">    
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="titulo">
+                            <img src="cadastro.png" class="img-cadastro">
+                        </div>
+                    </div>
+
+                    <div class="grupo-input">
+                        <div class="input-box">
+                            <label for="firstname">Primeiro nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>            
+                        </div>
+
+                        <div class="input-box">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu Sobrenome" required>            
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu email" required>            
+                        </div>
+
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input id="number" type="tel" name="number" placeholder="Digite seu número" required>            
+                        </div>
+
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha" required>            
+                        </div>
+
+                        <div class="input-box">
+                            <label for="password">Confirme senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha" required>            
+                        </div>
+                    </div>
+
+                    <div class="genero-inputs">
+                        <div class="genero-titulo">
+                            <h6>Gênero</h6>
+                        </div>
+
+                        <div class="genero-grupo">
+                            <div class="genero-input">
+                                <input type="radio" id="female" name="genero">
+                                <label for="female">Feminino</label>
+                            </div>
+
+                            <div class="genero-input">
+                                <input type="radio" id="male" name="genero">
+                                <label for="male">Masculino</label>
+                            </div>
+
+                            <div class="genero-input">
+                                <input type="radio" id="other" name="genero">
+                                <label for="other">Outros</label>
+                            </div>
+
+                            <div class="genero-input">
+                                <input type="radio" id="none" name="genero">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <button class="membro-button"><a href="#">Seja membro</a></button>
+                    </div>
+                </form>
+            </div> 
+        </div>
+    </main>
+</body>
+</html>

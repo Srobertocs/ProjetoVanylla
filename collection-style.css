@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600;700&family=Holtwood+One+SC&family=League+Gothic&family=Potta+One&family=Rock+Salt&family=Ultra&family=Yellowtail&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #F6F6F6;
+    font-size: 100%;
+}
+footer{
+    background: #D9CAB3;
+}
+.cabecalho{
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-cabecalho{
+    height: 135px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 64px;
+}
+.cabecalho-menu-item{
+    font-family: 'Blinker', sans-serif;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.cabecalho-menu-item:hover{
+    color: #D9CAB3;
+}
+.conteudo-princial{
+    display: flex;
+    justify-content: center;
+    background-color: #D9CAB3;
+}
+.conteudo-principal-titulo{
+    height: 400px;
+}
+.conteudo-secundario{
+    display: flex;
+    justify-content: center;
+}
+.conteudo-secundario-titulo{
+    height: 300px;
+}
+.blusas{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.conteudo-terciario{
+    display: flex;
+    justify-content: center;
+}
+.conteudo-terciario-titulo{
+    height: 300px;
+}
+.calcas{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.conteudo-quaternario{
+    display: flex;
+    justify-content: center;
+}
+.conteudo-quartenario-titulo{
+    height: 300px;
+}
+.tenis{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+.rodape{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+.rodape-imagem{
+    height: 96px;
+}
+.blusas-item{
+    height: 450px;
+}
+.calcas-item{
+    height: 450px;
+}
+.tenis-item{
+    height: 450px;
+}
+.precos-texto{
+    display: flex;
+    justify-content: center;
+    font-family: 'Blinker', sans-serif;
+    color: #212121; 
+}
+.nome-texto{
+    display: flex;
+    justify-content: center;
+    font-family: 'Blinker', sans-serif;
+    color: #212121; 
+}
